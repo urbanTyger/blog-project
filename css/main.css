@@ -2,7 +2,7 @@
 /* This will not import correctly, unknown reason */
 /* @import url('/css/media.css'); */
 @import url('posts/css/blog.css');
-@import url('css/full-width.css');
+@import url('/css/full-width.css');
 
 /* reset all default settings */
 * {
