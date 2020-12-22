@@ -338,7 +338,7 @@
     width: 100px;
     border: 1px solid gray;
     border-radius: 50px;
-    background-image: url('baseImages/avatar.jpg');
+    background-image: url('/blog-project/baseImages/avatar.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
