@@ -1,4 +1,4 @@
-# blog-project
+# Blog Website Project
 
 Static website for a blog with one complete post
 
