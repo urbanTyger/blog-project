@@ -64,9 +64,9 @@
     border-radius: 5px;
     width: 200px;
     height: 150px;
-    background-size: 97%;
     background-repeat: no-repeat;
-    background-position: center;
+    object-fit: contain;
+    object-position: center;
 }
 
 .credit-icon {
@@ -95,7 +95,7 @@
     content: ' ';
     opacity: 0.2;
     filter: blur(4px);
-    background-image:url('/blog-project/baseImages/quote.png');
+    background-image:url('../baseImages/quote.png');
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
