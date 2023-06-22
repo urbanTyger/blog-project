@@ -2,7 +2,7 @@
   for = "/*"
   [headers.values]
     Access-Control-Allow-Origin = "*"
-    Content-Security-Policy = "default-src 'self' 'unsafe-inline' https://ka-f.fontawesome.com/releases/v5.15.4/css/free.min.css?token=addc70342f fonts.gstatic.com plausible.monocletiger.eu https://fonts.googleapis.com app.netlify.com https://blog.rogertmiller.com https://kit.fontawesome.com/addc70342f.js https://plausible.monocletiger.eu/api/event;"
+    Content-Security-Policy = "default-src 'self' 'unsafe-inline' https://ka-f.fontawesome.com fonts.gstatic.com plausible.monocletiger.eu https://fonts.googleapis.com app.netlify.com https://blog.rogertmiller.com https://kit.fontawesome.com/addc70342f.js https://plausible.monocletiger.eu/api/event;"
     X-Frame-Options = "deny"
     X-XSS-Protection = "1; mode=block"
     Cache-Control = "public, max-age=34800"
