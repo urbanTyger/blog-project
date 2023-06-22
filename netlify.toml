@@ -3,12 +3,12 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Security-Policy = '''"
-    default-src 'self' 'unsafe-inline',
-    https://ka-f.fontawesome.com, 
-    fonts.gstatic.com, 
-    https://plausible.monocletiger.eu,
-    https://fonts.googleapis.com app.netlify.com, 
-    https://blog.rogertmiller.com, 
-    https://kit.fontawesome.com/addc70342f.js, 
-    https://plausible.monocletiger.eu/api/event;,
+    default-src 'self' 'unsafe-inline'
+    https://ka-f.fontawesome.com
+    fonts.gstatic.com
+    plausible.monocletiger.eu
+    https://fonts.googleapis.com app.netlify.com
+    https://blog.rogertmiller.com
+    https://kit.fontawesome.com/addc70342f.js
+    https://plausible.monocletiger.eu/api/event;
     script-src 'self' 'unsafe-inline' plausible.monocletiger.eu;"'''
