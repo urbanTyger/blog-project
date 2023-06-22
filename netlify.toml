@@ -11,4 +11,5 @@
     https://blog.rogertmiller.com
     https://kit.fontawesome.com/addc70342f.js
     https://plausible.monocletiger.eu/api/event;
-    script-src 'self' 'unsafe-inline' plausible.monocletiger.eu;'''
+    script-src 'self' 'unsafe-inline' plausible.monocletiger.eu
+    https://kit.fontawesome.com/addc70342f.js;'''
