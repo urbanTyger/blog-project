@@ -3,7 +3,8 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Security-Policy = '''
-    content-src 'self' blog.rogertmiller.com
+    content-src 'self' blog.rogertmiller.com;
+    connect-src https://plausible.monocletiger.eu;
     default-src 'self' 'unsafe-inline'
     https://ka-f.fontawesome.com
     fonts.gstatic.com
