@@ -3,6 +3,7 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Security-Policy = '''
+    content-src 'self' blog.rogertmiller.com
     default-src 'self' 'unsafe-inline'
     https://ka-f.fontawesome.com
     fonts.gstatic.com
