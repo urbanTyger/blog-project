@@ -5,7 +5,8 @@
     Content-Security-Policy = '''
     content-src 'self' blog.rogertmiller.com;
     connect-src https://plausible.monocletiger.eu https://ka-f.fontawesome.com;
-    script-src-elem https://plausible.monocletiger.eu https://ka-f.fontawesome.com;
+    script-src-elem plausible.monocletiger.eu ka-f.fontawesome.com
+    'self' 'unsafe-inline' kit.fontawesome.com;
     default-src 'self' 'unsafe-inline'
     https://ka-f.fontawesome.com
     fonts.gstatic.com
@@ -14,6 +15,4 @@
     https://blog.rogertmiller.com
     https://kit.fontawesome.com/addc70342f.js
     https://plausible.monocletiger.eu/api/event;
-    script-src 'self' 'unsafe-inline' plausible.monocletiger.eu
-    https://kit.fontawesome.com/addc70342f.js
-    https://plausible.monocletiger.eu/js/script.js;'''
+    '''
