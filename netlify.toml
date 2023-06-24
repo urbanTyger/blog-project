@@ -1,7 +1,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Access-Control-Allow-Origin = "plausible.monocletiger.eu"
+    Access-Control-Allow-Origin = "https://plausible.monocletiger.eu"
     Content-Security-Policy = '''
     connect-src https://plausible.monocletiger.eu https://ka-f.fontawesome.com;
     script-src-elem plausible.monocletiger.eu ka-f.fontawesome.com
