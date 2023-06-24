@@ -3,7 +3,7 @@
   [headers.values]
     Access-Control-Allow-Origin = "*"
     Content-Security-Policy = '''
-    connect-src https://plausible.monocletiger.eu https://ka-f.fontawesome.com;
+    connect-src https://plausible.monocletiger.eu https://ka-f.fontawesome.com  https://plausible.monocletiger.eu/api/event;
     script-src-elem plausible.monocletiger.eu ka-f.fontawesome.com
     'self' 'unsafe-inline' kit.fontawesome.com;
     default-src 'self' 'unsafe-inline'
